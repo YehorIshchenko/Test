@@ -1,0 +1,114 @@
+﻿<Page
+    x:Class="SyncfusionWpfLayoutTest.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:properties="clr-namespace:SyncfusionWpfLayoutTest.Properties"
+    xmlns:local="clr-namespace:SyncfusionWpfLayoutTest.ViewModels"
+    xmlns:helper="clr-namespace:SyncfusionWpfLayoutTest.Helpers"
+    
+    xmlns:svg="http://sharpvectors.codeplex.com/svgc/"
+    
+    mc:Ignorable="d"
+    d:DesignHeight="450" d:DesignWidth="800">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <helper:StepActiveToVisibilityConverter x:Key="StepActiveToVisibilityConverter"/>
+            <helper:StepInactiveToVisibilityConverter x:Key="StepInactiveToVisibilityConverter"/>
+
+            <!--    Стили   -->
+
+        <Style x:Key="ModelButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="90"/>
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="Background" Value="#F3F4F6"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="8" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="#94A3B8"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Page.DataContext>
+        <local:MainViewModel/>
+    </Page.DataContext>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,50,0,20">
+            <Button Content="Manual" Margin="0,0,10,0" Padding="20,10" BorderThickness="2" BorderBrush="#D1D5DB" Background="White"/>
+            <Button Content="KnoRoute" Padding="20,10" BorderThickness="2" BorderBrush="#2563EB" Background="White"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Available AI Models" FontSize="18" FontWeight="SemiBold" Foreground="#1E293B" Margin="0,0,0,5"/>
+            <TextBlock Text="Choose which models you want your project to use." FontSize="12" Foreground="#64748B" TextWrapping="Wrap" Margin="0,0,0,20"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource ModelButtonStyle}" Margin="5" Background="#F3F4F6">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <svg:SvgViewbox Source="/KnoExtra/Icons/openai.svg" Width="30" Height="30"/>
+                        <TextBlock Text="Chat GPT" Margin="0,5,0,0"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource ModelButtonStyle}" Margin="5" Background="#F3F4F6">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <svg:SvgViewbox Source="/KnoExtra/Icons/google.svg" Width="30" Height="30"/>
+                        <TextBlock Text="Gemini" Margin="0,5,0,0"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource ModelButtonStyle}" Margin="5" Background="#F3F4F6">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <svg:SvgViewbox Source="/KnoExtra/Icons/microsoft.svg" Width="30" Height="30"/>
+                        <TextBlock Text="Microsoft Azure" Margin="0,5,0,0"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource ModelButtonStyle}" Margin="5" Background="#F3F4F6">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <svg:SvgViewbox Source="/KnoExtra/Icons/anthropic.svg" Width="30" Height="30"/>
+                        <TextBlock Text="Anthropic" Margin="0,5,0,0"/>
+                    </StackPanel>
+                </Button>
+
+            </Grid>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,30,0,0">
+                <Button Content="Back" Background="White" BorderBrush="#D1D5DB" BorderThickness="1" Foreground="#6B7280" Padding="15,8" Margin="0,0,10,0"/>
+                <Button Content="Next" Background="#2563EB" Foreground="White" Padding="15,8"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|d:\\github\\test\\syncfusionwpflayouttest\\syncfusionwpflayouttest\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|solutionrelative:syncfusionwpflayouttest\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|D:\\Github\\Test\\SyncfusionWpfLayoutTest\\syncfusionwpflayouttest\\helpers\\stepinactivetovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|solutionrelative:syncfusionwpflayouttest\\helpers\\stepinactivetovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|d:\\github\\test\\syncfusionwpflayouttest\\syncfusionwpflayouttest\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|solutionrelative:syncfusionwpflayouttest\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|d:\\github\\test\\syncfusionwpflayouttest\\syncfusionwpflayouttest\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|solutionrelative:syncfusionwpflayouttest\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|D:\\Github\\Test\\SyncfusionWpfLayoutTest\\syncfusionwpflayouttest\\helpers\\stepactivetovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|solutionrelative:syncfusionwpflayouttest\\helpers\\stepactivetovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|D:\\Github\\Test\\SyncfusionWpfLayoutTest\\syncfusionwpflayouttest\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC47B4DD-7B0A-4D84-9F65-6B07C9F26D87}|SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest.csproj|solutionrelative:syncfusionwpflayouttest\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageService.cs",
+              "DocumentMoniker": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Services\\PageService.cs",
+              "RelativeDocumentMoniker": "SyncfusionWpfLayoutTest\\Services\\PageService.cs",
+              "ToolTip": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Services\\PageService.cs",
+              "RelativeToolTip": "SyncfusionWpfLayoutTest\\Services\\PageService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIAxwCsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T16:02:20.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "SyncfusionWpfLayoutTest\\Views\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "SyncfusionWpfLayoutTest\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:47:36.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StepInactiveToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Helpers\\StepInactiveToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "SyncfusionWpfLayoutTest\\Helpers\\StepInactiveToVisibilityConverter.cs",
+              "ToolTip": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Helpers\\StepInactiveToVisibilityConverter.cs",
+              "RelativeToolTip": "SyncfusionWpfLayoutTest\\Helpers\\StepInactiveToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T09:16:25.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StepActiveToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Helpers\\StepActiveToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "SyncfusionWpfLayoutTest\\Helpers\\StepActiveToVisibilityConverter.cs",
+              "ToolTip": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Helpers\\StepActiveToVisibilityConverter.cs",
+              "RelativeToolTip": "SyncfusionWpfLayoutTest\\Helpers\\StepActiveToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:03:14.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SyncfusionWpfLayoutTest\\Views\\MainPage.xaml",
+              "ToolTip": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\Views\\MainPage.xaml",
+              "RelativeToolTip": "SyncfusionWpfLayoutTest\\Views\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T18:08:39.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "SyncfusionWpfLayoutTest\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Github\\Test\\SyncfusionWpfLayoutTest\\SyncfusionWpfLayoutTest\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "SyncfusionWpfLayoutTest\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T18:04:06.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
